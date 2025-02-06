@@ -1,5 +1,7 @@
 public class Main {
+    //Figuras geométricas por Jesús Antonio Murcia
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+
+        new Control();
     }
 }
