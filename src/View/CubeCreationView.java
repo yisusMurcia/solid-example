@@ -20,7 +20,7 @@ public class CubeCreationView {
             }
         }catch (InputMismatchException _){
             System.out.println("Invalid side, it must be positive");
-            scan.next();
+            scan.nextLine();
             side = getSide();
         }
 

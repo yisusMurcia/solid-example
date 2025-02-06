@@ -20,7 +20,7 @@ public class SphereCreationView {
             }
         }catch (InputMismatchException _){
             System.out.println("Invalid radius, it must be positive");
-            scan.next();
+            scan.nextLine();
             radius = getRadius();
         }
 

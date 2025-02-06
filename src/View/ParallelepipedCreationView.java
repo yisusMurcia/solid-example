@@ -20,7 +20,7 @@ public class ParallelepipedCreationView {
             }
         }catch (InputMismatchException _){
             System.out.println("Invalid heigth, it must be positive");
-            scan.next();
+            scan.nextLine();
             heigth = getHeigth();
         }
 
@@ -37,7 +37,7 @@ public class ParallelepipedCreationView {
             }
         }catch (InputMismatchException _){
             System.out.println("Invalid width, it must be positive");
-            scan.next();
+            scan.nextLine();
             width = getWidth();
         }
 
@@ -54,7 +54,7 @@ public class ParallelepipedCreationView {
             }
         }catch (InputMismatchException _){
             System.out.println("Invalid length, it must be positive");
-            scan.next();
+            scan.nextLine();
             length = getLength();
         }
 
