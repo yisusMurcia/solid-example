@@ -10,21 +10,21 @@ public class ParallelepipedCreationView {
         this.scan = scan;
     }
 
-    public double getHeigth(){
-        double heigth;
+    public double getHeight(){
+        double height;
         try {
-            System.out.print("Enter the heigth of the parallelepiped: ");
-            heigth = scan.nextDouble();
-            if(heigth <= 0){
+            System.out.print("Enter the height of the parallelepiped: ");
+            height = scan.nextDouble();
+            if(height <= 0){
                 throw new InputMismatchException();
             }
         }catch (InputMismatchException _){
-            System.out.println("Invalid heigth, it must be positive");
+            System.out.println("Invalid height, it must be positive");
             scan.nextLine();
-            heigth = getHeigth();
+            height = getHeight();
         }
 
-        return heigth;
+        return height;
     }
 
     public double getWidth(){

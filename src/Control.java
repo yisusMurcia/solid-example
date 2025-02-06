@@ -63,6 +63,6 @@ public class Control {
     }
 
     public Figure createParallelepiped(){
-        return new Parallelepiped(parallelepipedCreationView.getWidth(), parallelepipedCreationView.getHeigth(), parallelepipedCreationView.getLength());
+        return new Parallelepiped(parallelepipedCreationView.getWidth(), parallelepipedCreationView.getHeight(), parallelepipedCreationView.getLength());
     }
 }
