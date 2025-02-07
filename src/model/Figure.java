@@ -23,7 +23,7 @@ public abstract class Figure {
         this.height = side;
         this.width = side;
     }
-
+    //Métodos nedecasrios para el funcionamiento del programa
     public String getName() {
         return name;
     }
